@@ -1,0 +1,45 @@
+main {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: row nowrap;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 50%;
+  }
+
+  .welcome {
+    justify-content: space-between;
+    flex-flow: column nowrap;
+
+    h3 {
+      text-transform: uppercase;
+      color: #009dff;
+      font-weight: 600;
+    }
+
+    h4 {
+      line-height: 130%;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+
+      &:hover {
+        color: #009dff;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  img {
+    border-radius: 50%;
+    max-width: 250px;
+    height: auto;
+  }
+}
